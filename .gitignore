@@ -1,0 +1,43 @@
+# Переменные окружения и секреты (КРИТИЧНО)
+.env
+.env.*
+!.env.example
+
+# Виртуальное окружение
+venv/
+.venv/
+env/
+ENV/
+
+# Кэш Python и скомпилированные файлы
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+
+# Локальные базы данных (например, SQLite)
+*.db
+*.sqlite3
+
+# Логи и временные файлы
+*.log
+logs/
+tmp/
+temp/
+
+# Кэш тестов и линтеров
+.pytest_cache/
+.coverage
+htmlcov/
+.mypy_cache/
+.ruff_cache/
+
+# Настройки IDE и редакторов
+.vscode/
+.idea/
+*.swp
+*.swo
+
+# Системные файлы ОС
+.DS_Store
+Thumbs.db

@@ -1,0 +1,19 @@
+[project]
+name = "pri-backend"
+version = "0.1.0"
+description = "Add your description here"
+readme = "README.md"
+authors = [
+    { name = "miisemaks", email = "miise95mmaks@mail.ru" }
+]
+requires-python = ">=3.9"
+dependencies = [
+    "fastapi[standard]>=0.128.8",
+]
+
+[project.scripts]
+pri-backend = "pri_backend:main"
+
+[build-system]
+requires = ["uv_build>=0.13.7,<0.14.0"]
+build-backend = "uv_build"
